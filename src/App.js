@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import StateComponent from './components/classcomponents/StateComponents';
 import PropsComponent from './components/functionalcomponents/propsComponent';
 //import Testcomponent from './components/functionalcomponents/testcomponents';
 //import TestClassComp from './components/classcomponents/testclasscomponents';
@@ -9,6 +10,7 @@ function App() {
       {/*Testcomponent*/}
       <header className="App-header">
         {/*TestClassComp*/}
+        <StateComponent />
         <PropsComponent name ="kani" course = "MERN" />
         {/*<PropsComponent name="Kani" email="kanigav2004@gmail.com" />*/}
         <img src={logo} className="App-logo" alt="logo" />
