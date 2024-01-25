@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Testcomponent from './components/functionalcomponents/testcomponents';
-import TestClassComp from './components/classcomponents/testclasscomponents';
+import PropsComponent from './components/functionalcomponents/propsComponent';
+//import Testcomponent from './components/functionalcomponents/testcomponents';
+//import TestClassComp from './components/classcomponents/testclasscomponents';
 function App() {
   return (
     <div className="App">
-      <TestClassComp/>
+      {/*Testcomponent*/}
       <header className="App-header">
-        <Testcomponent />
+        {/*TestClassComp*/}
+        <PropsComponent name ="kani" course = "MERN" />
+        {/*<PropsComponent name="Kani" email="kanigav2004@gmail.com" />*/}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -24,5 +27,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
